@@ -10,6 +10,12 @@ import "./styles/theme.css";
 import { useColorScheme } from "@dazl/color-scheme/react";
 import favicon from "/favicon.svg";
 
+import { NavigationHeader } from "./blocks/__global/navigation-header";
+import { ContactQuickInfo } from "./blocks/__global/contact-quick-info";
+import { ServicesSummaryFooter } from "./blocks/__global/services-summary-footer";
+import { ContactLegalFooter } from "./blocks/__global/contact-legal-footer";
+import { SocialMediaCopyright } from "./blocks/__global/social-media-copyright";
+
 export const links: Route.LinksFunction = () => [
   {
     rel: "icon",
@@ -22,13 +28,16 @@ export const links: Route.LinksFunction = () => [
     href: "https://fonts.gstatic.com",
     crossOrigin: "anonymous",
   },
-  /* Placeholder for Google Fonts link */
+  {
+    rel: "stylesheet",
+    href: "https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700;800&family=DM+Sans:wght@400;500;600&display=swap",
+  },
 ];
 
 export function Layout({ children }: { children: React.ReactNode }) {
   const { rootCssClass, resolvedScheme } = useColorScheme();
   return (
-    <html lang="en" suppressHydrationWarning className={rootCssClass} style={{ colorScheme: resolvedScheme }}>
+    <html lang="fr" suppressHydrationWarning className={rootCssClass} style={{ colorScheme: resolvedScheme }}>
       <head>
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -37,7 +46,17 @@ export function Layout({ children }: { children: React.ReactNode }) {
         <Links />
       </head>
       <body>
+        <header>
+          <ContactQuickInfo />
+          <NavigationHeader />
+        </header>
         {children}
+        <footer>
+          <ServicesSummaryFooter />
+          <ContactLegalFooter />
+          <SocialMediaCopyright />
+        </footer>
+
         <ScrollRestoration />
         <Scripts />
       </body>
