@@ -8,6 +8,7 @@ const services = [
   { label: "Carrelage Sol & Mur", href: "/services#carrelage" },
   { label: "Sol Vinyle", href: "/services#sol-vinyle" },
   { label: "Nettoyage Après Travaux", href: "/services#nettoyage" },
+  { label: "Drywall / Placo", href: "/services#drywall" },
 ];
 
 const pages = [

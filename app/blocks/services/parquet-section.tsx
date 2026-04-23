@@ -33,10 +33,6 @@ export function ParquetSection({ className }: { className?: string }) {
                 </li>
               ))}
             </ul>
-            <div className={styles.price}>
-              <div className={styles.priceLabel}>Tarif indicatif pose</div>
-              <div className={styles.priceValue}>dès 25€/m²</div>
-            </div>
             <Link to="/contact" className="btn btn-primary">
               Demander un Devis
             </Link>

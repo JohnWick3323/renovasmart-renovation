@@ -1,5 +1,5 @@
 import { Link } from "react-router";
-import { Paintbrush, Layers, Grid3x3, Leaf, Sparkles, ArrowRight } from "lucide-react";
+import { Paintbrush, Layers, Grid3x3, Leaf, Sparkles, Square, ArrowRight } from "lucide-react";
 import styles from "./services-overview.module.css";
 
 const services = [
@@ -32,6 +32,12 @@ const services = [
     title: "Nettoyage",
     desc: "Après travaux, impeccable et prêt à vivre.",
     href: "/services#nettoyage",
+  },
+  {
+    icon: <Square size={28} />,
+    title: "Drywall / Placo",
+    desc: "Cloisons, faux plafonds et finitions plâtre prêtes à peindre.",
+    href: "/services#drywall",
   },
 ];
 

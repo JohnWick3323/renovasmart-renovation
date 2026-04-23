@@ -5,6 +5,7 @@ import { ParquetSection } from "~/blocks/services/parquet-section";
 import { CarrelageSection } from "~/blocks/services/carrelage-section";
 import { SolVinyleSection } from "~/blocks/services/sol-vinyle-section";
 import { NettoyageSection } from "~/blocks/services/nettoyage-section";
+import { DrywallSection } from "~/blocks/services/drywall-section";
 import styles from "./services.module.css";
 
 export function meta({}: Route.MetaArgs) {
@@ -23,6 +24,7 @@ export default function Services() {
       <CarrelageSection />
       <SolVinyleSection />
       <NettoyageSection />
+      <DrywallSection />
     </main>
   );
 }

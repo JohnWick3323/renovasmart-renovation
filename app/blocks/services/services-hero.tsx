@@ -8,6 +8,7 @@ const tabs = [
   { label: "Carrelage", href: "#carrelage" },
   { label: "Sol Vinyle", href: "#sol-vinyle" },
   { label: "Nettoyage", href: "#nettoyage" },
+  { label: "Drywall / Placo", href: "#drywall" },
 ];
 
 export function ServicesHero({ className }: { className?: string }) {

@@ -9,6 +9,7 @@ const services = [
   "Carrelage",
   "Sol Vinyle",
   "Nettoyage",
+  "Drywall / Placo",
 ];
 
 export function HeroSection({ className }: { className?: string }) {

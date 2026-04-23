@@ -33,10 +33,6 @@ export function SolVinyleSection({ className }: { className?: string }) {
                 </li>
               ))}
             </ul>
-            <div className={styles.price}>
-              <div className={styles.priceLabel}>Tarif indicatif</div>
-              <div className={styles.priceValue}>dès 20€/m²</div>
-            </div>
             <Link to="/contact" className="btn btn-primary">
               Demander un Devis
             </Link>
