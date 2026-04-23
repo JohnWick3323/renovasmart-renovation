@@ -1,0 +1,215 @@
+{
+  "title": "RenovaSmart Rénovation",
+  "description": "RenovaSmart Rénovation est une plateforme de services de rénovation intérieure complète. Nous offrons des travaux professionnels de peinture, pose de parquet, carrelage, revêtement de sol vinyle et nettoyage après travaux. Notre mission est de fournir un travail propre, rapide et professionnel pour transformer vos espaces intérieurs.",
+  "globalHeaderBlocks": [
+    {
+      "name": "Navigation Header",
+      "description": "Barre de navigation supérieure contenant le logo RenovaSmart, menu de navigation principal (Accueil, Services, À Propos, Contact) et bouton d'appel à l'action pour demander un devis.",
+      "id": "017dad0b-e0ff-406c-a2f5-b9e60ebd7d6c"
+    },
+    {
+      "name": "Contact Quick Info",
+      "description": "Bande de contact rapide affichant le numéro de téléphone, email et horaires d'ouverture pour un accès facile aux informations de contact.",
+      "id": "0984fba9-d802-4642-b78e-fb5e6ca8766f"
+    }
+  ],
+  "globalFooterBlocks": [
+    {
+      "name": "Services Summary Footer",
+      "description": "Section listant rapidement tous les services principaux (Peinture, Parquet, Carrelage, Sol vinyle, Nettoyage) avec liens directs vers chaque service.",
+      "id": "44215df2-2c65-4078-94d7-97b1daf23db0"
+    },
+    {
+      "name": "Contact & Legal Footer",
+      "description": "Section contenant les coordonnées complètes, adresse, numéro de téléphone, email, horaires, liens vers mentions légales et politique de confidentialité.",
+      "id": "8acdef3d-3308-40b7-8ca8-7da3329a4b97"
+    },
+    {
+      "name": "Social Media & Copyright",
+      "description": "Bande inférieure avec liens vers réseaux sociaux (Facebook, Instagram) et copyright RenovaSmart.",
+      "id": "c5d9fc2e-63b6-4bb0-80c1-dc2e0a1ca441"
+    }
+  ],
+  "pages": [
+    {
+      "name": "Accueil",
+      "description": "Page d'accueil principale présentant RenovaSmart, ses services clés et un appel à l'action pour les devis. Affiche les services principaux avec images, témoignages clients et formulaire de contact rapide.",
+      "uri": "/",
+      "blocks": [
+        {
+          "name": "Hero Section",
+          "description": "Section d'en-tête avec image de fond professionnelle, titre principal 'RenovaSmart Rénovation', sous-titre et bouton d'appel à l'action pour demander un devis gratuit.",
+          "id": "8143d090-e21d-4b89-b896-b8104c70b33d"
+        },
+        {
+          "name": "Services Overview",
+          "description": "Grille affichant les 5 services principaux (Peinture, Parquet, Carrelage, Sol vinyle, Nettoyage) avec icônes, descriptions courtes et liens vers pages détaillées.",
+          "id": "503a350a-7d8f-46cf-818a-b411a2c74dfd"
+        },
+        {
+          "name": "Why Choose Us",
+          "description": "Section mettant en avant les avantages de RenovaSmart: travail professionnel, rapidité, propreté, équipe expérimentée avec 3-4 points clés.",
+          "id": "7622c03e-fdb0-49fc-b393-06bdcac9c496"
+        },
+        {
+          "name": "Recent Projects Gallery",
+          "description": "Galerie d'images montrant les projets réalisés récemment avec avant/après pour chaque type de service.",
+          "id": "b8b573c8-3753-40ee-b488-bc781f2775f9"
+        },
+        {
+          "name": "Client Testimonials",
+          "description": "Section affichant 3-4 témoignages de clients satisfaits avec photos, noms et évaluations.",
+          "id": "8ebf1104-3199-43f9-92b6-319f749a08d1"
+        },
+        {
+          "name": "Call-to-Action Quote",
+          "description": "Section finale encourageant les visiteurs à demander un devis gratuit avec formulaire de contact simplifié.",
+          "id": "cb431d9d-8657-40aa-bba9-3c6e3348702c"
+        }
+      ],
+      "id": "0b31d0b7-eb80-4c6d-bce8-6683c8d1a2ed"
+    },
+    {
+      "name": "Services",
+      "description": "Page détaillée listant tous les services offerts par RenovaSmart avec descriptions complètes, processus, et galeries de projets pour chaque service.",
+      "uri": "/services",
+      "blocks": [
+        {
+          "name": "Services Hero",
+          "description": "En-tête de page avec titre 'Nos Services' et description générale des services de rénovation intérieure.",
+          "id": "fe4799ad-7c75-49cd-a679-f02546fe6264"
+        },
+        {
+          "name": "Peinture Section",
+          "description": "Section détaillée du service de peinture incluant description (peinture intérieure/extérieure), processus, galerie de projets et tarifs approximatifs.",
+          "id": "7cae2e0b-569e-4197-84d0-da63d5943816"
+        },
+        {
+          "name": "Parquet Section",
+          "description": "Section détaillée du service de parquet incluant pose, sablage et vitrification avec images avant/après et avantages du parquet.",
+          "id": "e2ddf678-6559-4a40-af39-2012697fa1c7"
+        },
+        {
+          "name": "Carrelage Section",
+          "description": "Section détaillée du service de carrelage pour sol et mur, pose et rénovation, avec galerie de styles et projets réalisés.",
+          "id": "f3de65ae-961c-4533-b4d9-be12acb016fd"
+        },
+        {
+          "name": "Sol Vinyle Section",
+          "description": "Section détaillée du service de revêtement sol vinyle avec avantages, styles disponibles et projets d'installation.",
+          "id": "db5ea314-043a-45b5-ad3f-d4b8d1e10d9d"
+        },
+        {
+          "name": "Nettoyage Section",
+          "description": "Section détaillée du service de nettoyage après travaux, nettoyage de maison complète et nettoyage de fin de chantier.",
+          "id": "735824ad-0b6d-467d-98ee-65a96bfe6f5d"
+        }
+      ],
+      "id": "da600172-0f8a-4e47-8d1f-9ed0b02dbdef"
+    },
+    {
+      "name": "À Propos",
+      "description": "Page présentant RenovaSmart, son histoire, son équipe, ses valeurs et son engagement envers la qualité et la satisfaction client.",
+      "uri": "/about",
+      "blocks": [
+        {
+          "name": "About Hero",
+          "description": "En-tête avec titre 'À Propos de RenovaSmart' et image de l'équipe ou du showroom.",
+          "id": "f16fa48c-342b-409b-a2aa-8d228bb41453"
+        },
+        {
+          "name": "Company Story",
+          "description": "Section racontant l'histoire de RenovaSmart, sa fondation, sa mission et sa vision pour les rénovations intérieures de qualité.",
+          "id": "0eff5cd2-5ec1-4ebc-a684-de8a6a83a78b"
+        },
+        {
+          "name": "Team Section",
+          "description": "Présentation de l'équipe avec photos, noms et spécialités de chaque membre.",
+          "id": "82591781-d34c-4055-b2be-cab593d9e768"
+        },
+        {
+          "name": "Our Values",
+          "description": "Section présentant les valeurs clés: professionnalisme, propreté, rapidité, satisfaction client avec icônes et descriptions.",
+          "id": "b0e153d0-8642-4938-a65e-50f174fdec3a"
+        },
+        {
+          "name": "Certifications & Experience",
+          "description": "Affichage des certifications professionnelles, années d'expérience et garanties offertes.",
+          "id": "0a260683-356f-4950-bee6-e414bf0bd8f2"
+        }
+      ],
+      "id": "7e13b67f-3476-410d-90ba-29318d8fd2d1"
+    },
+    {
+      "name": "Contact",
+      "description": "Page de contact avec formulaire de demande de devis, informations de contact complètes et carte de localisation.",
+      "uri": "/contact",
+      "blocks": [
+        {
+          "name": "Contact Hero",
+          "description": "En-tête avec titre 'Contactez-Nous' et message d'accueil.",
+          "id": "f50ffcf7-1f20-4127-888b-b5c1ea9c05ae"
+        },
+        {
+          "name": "Quote Request Form",
+          "description": "Formulaire permettant aux clients de demander un devis gratuit avec champs pour nom, email, téléphone, type de service et description du projet.",
+          "id": "cb6efbde-b540-416b-a86d-2ac68cd2ec64"
+        },
+        {
+          "name": "Contact Information",
+          "description": "Affichage des coordonnées complètes: adresse, numéro de téléphone, email, horaires d'ouverture et jours de fermeture.",
+          "id": "af4d6b41-3fd0-49a2-92fd-93b10effad9e"
+        },
+        {
+          "name": "Location Map",
+          "description": "Carte interactive montrant la localisation de RenovaSmart et zone de service.",
+          "id": "589b3615-23b5-4379-9ef7-da130e669783"
+        }
+      ],
+      "id": "80b7a9e1-1b53-4cb9-a67f-3fb7f95f331c"
+    }
+  ],
+  "features": [
+    {
+      "name": "Service de Peinture",
+      "description": "Offre complète de services de peinture intérieure et extérieure, incluant préparation des surfaces, application professionnelle et finitions de qualité. Nos peintres en bâtiment utilisent des peintures de haute qualité pour un résultat durable et esthétique.",
+      "id": "df91d662-66f4-4dd1-96b2-bc63659f626a"
+    },
+    {
+      "name": "Service de Parquet",
+      "description": "Service complet de pose de parquet, sablage (ponçage) et vitrification (polissage/revêtement). Nous travaillons avec différents types de parquet et offrons une finition professionnelle pour un sol magnifique et durable.",
+      "id": "92a62422-2633-4ea9-8f46-4bd326d75c3e"
+    },
+    {
+      "name": "Service de Carrelage",
+      "description": "Pose de carrelage pour sol et mur, rénovation de carrelage existant et remplacement. Nos experts assurent une pose précise et un rendu professionnel pour cuisines, salles de bain et autres espaces.",
+      "id": "228c0037-4dcc-4263-b15b-0c72ea2b9496"
+    },
+    {
+      "name": "Service de Sol Vinyle",
+      "description": "Pose de revêtement de sol vinyle offrant durabilité, facilité d'entretien et esthétique moderne. Nous proposons différents styles et finitions adaptés à tous les budgets et préférences de design.",
+      "id": "05d8964c-d06b-4aa1-af47-4b4980a43145"
+    },
+    {
+      "name": "Service de Nettoyage",
+      "description": "Nettoyage professionnel après travaux, nettoyage complet de maison et nettoyage de fin de chantier. Nous laissons vos espaces impeccables et prêts à être utilisés après les rénovations.",
+      "id": "e6f4bc74-467f-4ce8-91c3-99f6966520c0"
+    },
+    {
+      "name": "Demande de Devis Gratuit",
+      "description": "Formulaire de contact permettant aux clients de demander un devis gratuit et sans engagement. Les clients reçoivent une évaluation détaillée de leur projet dans les 24-48 heures.",
+      "id": "6292676b-6311-4f65-9b2d-f10319ba78e3"
+    },
+    {
+      "name": "Galerie de Projets",
+      "description": "Galerie d'images avant/après montrant les projets réalisés par RenovaSmart pour chaque type de service, permettant aux clients de voir la qualité du travail.",
+      "id": "ecc87359-f32e-47b1-8a52-3720c35a7a31"
+    },
+    {
+      "name": "Témoignages Clients",
+      "description": "Section affichant les avis et témoignages de clients satisfaits avec évaluations, permettant aux nouveaux clients de voir la satisfaction des clients précédents.",
+      "id": "659876bc-6b77-495f-b2f0-6c258b27c08e"
+    }
+  ],
+  "stylingGuidelines": "Design moderne et épuré avec palette de couleurs professionnelles (bleu, gris, blanc). Utiliser des polices sans-serif claires et lisibles. Mise en page propre avec beaucoup d'espaces blancs et images de haute qualité montrant les travaux réalisés."
+}
