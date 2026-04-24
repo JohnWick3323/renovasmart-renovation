@@ -35,7 +35,7 @@ const services = [
   },
   {
     icon: <Square size={28} />,
-    title: "Drywall / Placo",
+    title: "Pose de plaques de plâtre",
     desc: "Cloisons, faux plafonds et finitions plâtre prêtes à peindre.",
     href: "/services#drywall",
   },

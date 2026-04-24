@@ -24,9 +24,9 @@ export function DrywallSection({ className }: { className?: string }) {
           </div>
           <div className={styles.content}>
             <span className={styles.tag}>
-              <Square size={12} /> Drywall / Placo
+              <Square size={12} /> Pose de plaques de plâtre
             </span>
-            <h2>Service Drywall &amp; Cloisons Sèches</h2>
+            <h2>Pose de plaques de plâtre</h2>
             <p>
               Nos poseurs de plaques de plâtre réalisent vos cloisons, faux plafonds et isolations avec
               précision. Finitions lisses et parfaites, prêtes à recevoir peinture ou revêtement.

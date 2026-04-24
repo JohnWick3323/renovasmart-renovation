@@ -110,7 +110,7 @@ export function QuoteRequestForm({ className }: { className?: string }) {
                   <option value="carrelage">Carrelage</option>
                   <option value="sol-vinyle">Sol Vinyle</option>
                   <option value="nettoyage">Nettoyage</option>
-                  <option value="drywall">Drywall / Placo</option>
+                  <option value="drywall">Pose de plaques de plâtre</option>
                   <option value="plusieurs">Plusieurs services</option>
                 </select>
                 {errors.service && <span className={styles.errorMsg}>{errors.service.message}</span>}

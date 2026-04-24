@@ -9,7 +9,7 @@ const services = [
   "Carrelage",
   "Sol Vinyle",
   "Nettoyage",
-  "Drywall / Placo",
+  "Pose de plaques de plâtre",
 ];
 
 export function HeroSection({ className }: { className?: string }) {
