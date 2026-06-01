@@ -32,14 +32,14 @@ export function WhyChooseUs({ className }: { className?: string }) {
         <div className={styles.imageWrap}>
           <img
             src="https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=800&auto=format&fit=crop&q=80"
-            alt="Équipe RenovaSmart au travail"
+            alt="Équipe RenovaXpert au travail"
           />
         </div>
         <div className={styles.content}>
           <span className={styles.tag}>Pourquoi Nous Choisir</span>
           <h2>Excellence et Professionnalisme à Votre Service</h2>
           <p>
-            RenovaSmart s'engage à fournir des rénovations de la plus haute qualité, avec une attention particulière
+            RenovaXpert s'engage à fournir des rénovations de la plus haute qualité, avec une attention particulière
             aux détails et une communication transparente tout au long du projet.
           </p>
           <div className={styles.points}>

@@ -19,7 +19,7 @@ export function CarrelageSection({ className }: { className?: string }) {
           <div className={styles.imageWrap}>
             <img
               src="https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?w=800&auto=format&fit=crop&q=80"
-              alt="Carrelage professionnel RenovaSmart"
+              alt="Carrelage professionnel RenovaXpert"
             />
           </div>
           <div className={styles.content}>

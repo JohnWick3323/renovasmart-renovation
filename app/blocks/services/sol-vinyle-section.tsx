@@ -40,7 +40,7 @@ export function SolVinyleSection({ className }: { className?: string }) {
           <div className={styles.imageWrap}>
             <img
               src="https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=800&auto=format&fit=crop&q=80"
-              alt="Sol vinyle moderne RenovaSmart"
+              alt="Sol vinyle moderne RenovaXpert"
             />
           </div>
         </div>

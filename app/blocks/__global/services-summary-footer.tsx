@@ -19,8 +19,8 @@ const pages = [
 ];
 
 const contact = [
-  { label: "+33 1 23 45 67 89", href: "tel:+33123456789" },
-  { label: "contact@renovasmart.fr", href: "mailto:contact@renovasmart.fr" },
+  { label: "+33 7 53 38 16 54", href: "tel:+33753381654" },
+  { label: "renovaxpert7@gmail.com", href: "mailto:renovaxpert7@gmail.com" },
   { label: "75 Rue de la Rénovation, Paris", href: "#" },
   { label: "Lun-Ven: 8h-18h", href: "#" },
 ];
@@ -30,7 +30,7 @@ export function ServicesSummaryFooter({ className }: { className?: string }) {
     <div className={`${styles.section} ${className ?? ""}`}>
       <div className={styles.inner}>
         <div className={styles.brand}>
-          <h3>RenovaSmart Rénovation</h3>
+          <h3>RenovaXpert Rénovation</h3>
           <p>
             Spécialistes de la rénovation intérieure à Paris et en Île-de-France. Travail propre, rapide et professionnel
             pour transformer vos espaces.

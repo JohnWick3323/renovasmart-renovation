@@ -13,8 +13,8 @@ type FormData = {
 };
 
 const infoCards = [
-  { icon: <Phone size={18} />, label: "Téléphone", value: "+33 1 23 45 67 89" },
-  { icon: <Mail size={18} />, label: "Email", value: "contact@renovasmart.fr" },
+  { icon: <Phone size={18} />, label: "Téléphone", value: "+33 7 53 38 16 54" },
+  { icon: <Mail size={18} />, label: "Email", value: "renovaxpert7@gmail.com" },
   { icon: <Clock size={18} />, label: "Horaires", value: "Lun-Ven: 8h-18h | Sam: 9h-13h" },
 ];
 

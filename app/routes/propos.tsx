@@ -8,8 +8,8 @@ import styles from "./propos.module.css";
 
 export function meta({}: Route.MetaArgs) {
   return [
-    { title: "À Propos - RenovaSmart Rénovation" },
-    { name: "description", content: "Découvrez l'histoire, l'équipe et les valeurs de RenovaSmart, votre expert en rénovation intérieure." },
+    { title: "À Propos - RenovaXpert Rénovation" },
+    { name: "description", content: "Découvrez l'histoire, l'équipe et les valeurs de RenovaXpert, votre expert en rénovation intérieure." },
   ];
 }
 

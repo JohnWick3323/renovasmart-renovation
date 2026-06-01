@@ -19,7 +19,7 @@ export function PeintureSection({ className }: { className?: string }) {
           <div className={styles.imageWrap}>
             <img
               src="https://images.unsplash.com/photo-1562259949-e8e7689d7828?w=800&auto=format&fit=crop&q=80"
-              alt="Service peinture RenovaSmart"
+              alt="Service peinture RenovaXpert"
             />
           </div>
           <div className={styles.content}>

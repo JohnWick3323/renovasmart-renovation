@@ -19,7 +19,7 @@ export function NettoyageSection({ className }: { className?: string }) {
           <div className={styles.imageWrap}>
             <img
               src="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=800&auto=format&fit=crop&q=80"
-              alt="Nettoyage après travaux RenovaSmart"
+              alt="Nettoyage après travaux RenovaXpert"
             />
           </div>
           <div className={styles.content}>

@@ -40,7 +40,7 @@ export function ParquetSection({ className }: { className?: string }) {
           <div className={styles.imageWrap}>
             <img
               src="https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=800&auto=format&fit=crop&q=80"
-              alt="Pose de parquet RenovaSmart"
+              alt="Pose de parquet RenovaXpert"
             />
           </div>
         </div>

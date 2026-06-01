@@ -7,7 +7,7 @@ const cards = [
     title: "Téléphone",
     content: (
       <p>
-        <a href="tel:+33123456789">+33 1 23 45 67 89</a>
+        <a href="tel:+33753381654">+33 7 53 38 16 54</a>
         <br />
         Du lundi au vendredi 8h-18h
       </p>
@@ -18,7 +18,7 @@ const cards = [
     title: "Email",
     content: (
       <p>
-        <a href="mailto:contact@renovasmart.fr">contact@renovasmart.fr</a>
+        <a href="mailto:renovaxpert7@gmail.com">renovaxpert7@gmail.com</a>
         <br />
         Réponse sous 24h ouvrées
       </p>

@@ -19,7 +19,7 @@ export function DrywallSection({ className }: { className?: string }) {
           <div className={styles.imageWrap}>
             <img
               src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800&auto=format&fit=crop&q=80"
-              alt="Pose de placo RenovaSmart"
+              alt="Pose de placo RenovaXpert"
             />
           </div>
           <div className={styles.content}>

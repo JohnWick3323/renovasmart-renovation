@@ -6,7 +6,7 @@ export function SocialMediaCopyright({ className }: { className?: string }) {
     <div className={`${styles.bar} ${className ?? ""}`}>
       <div className={styles.inner}>
         <p className={styles.copyright}>
-          &copy; {year} RenovaSmart Rénovation. Tous droits réservés.
+          &copy; {year} RenovaXpert Rénovation. Tous droits réservés.
         </p>
         <div className={styles.socials}>
           <a href="#" className={styles.socialLink} aria-label="Facebook">

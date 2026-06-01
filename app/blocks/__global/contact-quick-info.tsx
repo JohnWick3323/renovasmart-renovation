@@ -5,13 +5,13 @@ export function ContactQuickInfo({ className }: { className?: string }) {
   return (
     <div className={`${styles.bar} ${className ?? ""}`}>
       <div className={styles.inner}>
-        <a href="tel:+33123456789" className={styles.item}>
+        <a href="tel:+33753381654" className={styles.item}>
           <Phone size={14} className={styles.icon} />
-          <span>+33 1 23 45 67 89</span>
+          <span>+33 7 53 38 16 54</span>
         </a>
-        <a href="mailto:contact@renovasmart.fr" className={styles.item}>
+        <a href="mailto:renovaxpert7@gmail.com" className={styles.item}>
           <Mail size={14} className={styles.icon} />
-          <span>contact@renovasmart.fr</span>
+          <span>renovaxpert7@gmail.com</span>
         </a>
         <div className={styles.item}>
           <Clock size={14} className={styles.icon} />

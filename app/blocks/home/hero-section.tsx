@@ -45,7 +45,7 @@ export function HeroSection({ className }: { className?: string }) {
             Transformez Vos <span>Espaces</span> Intérieurs
           </h1>
           <p className={styles.subtitle}>
-            RenovaSmart offre des services de rénovation intérieure de qualité : peinture, parquet, carrelage, sol vinyle
+            RenovaXpert offre des services de rénovation intérieure de qualité : peinture, parquet, carrelage, sol vinyle
             et nettoyage. Travail propre, rapide et professionnel.
           </p>
           <div className={styles.actions}>
@@ -75,7 +75,7 @@ export function HeroSection({ className }: { className?: string }) {
               <CheckCircle size={48} className={styles.successIcon} />
               <h3>Merci !</h3>
               <p>Nous vous contacterons dans les 24 h pour établir votre devis gratuit.</p>
-              <a href="tel:+33123456789" className={`btn btn-accent ${styles.callBtn}`}>
+              <a href="tel:+33753381654" className={`btn btn-accent ${styles.callBtn}`}>
                 <Phone size={16} />
                 Appeler maintenant
               </a>

@@ -7,8 +7,8 @@ import styles from "./contact.module.css";
 
 export function meta({}: Route.MetaArgs) {
   return [
-    { title: "Contact - RenovaSmart Rénovation" },
-    { name: "description", content: "Contactez RenovaSmart pour votre devis gratuit de rénovation intérieure. Réponse sous 24-48h." },
+    { title: "Contact - RenovaXpert Rénovation" },
+    { name: "description", content: "Contactez RenovaXpert pour votre devis gratuit de rénovation intérieure. Réponse sous 24-48h." },
   ];
 }
 

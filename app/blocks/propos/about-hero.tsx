@@ -11,7 +11,7 @@ export function AboutHero({ className }: { className?: string }) {
           <ChevronRight size={14} />
           <span>À Propos</span>
         </div>
-        <h1>À Propos de RenovaSmart</h1>
+        <h1>À Propos de RenovaXpert</h1>
         <p>
           Depuis plus de 12 ans, nous transformons les espaces intérieurs avec passion, expertise et
           dévouement pour la satisfaction de nos clients.

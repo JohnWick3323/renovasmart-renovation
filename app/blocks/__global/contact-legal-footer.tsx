@@ -6,13 +6,13 @@ export function ContactLegalFooter({ className }: { className?: string }) {
     <div className={`${styles.section} ${className ?? ""}`}>
       <div className={styles.inner}>
         <div className={styles.info}>
-          <a href="tel:+33123456789" className={styles.infoItem}>
+          <a href="tel:+33753381654" className={styles.infoItem}>
             <Phone size={14} className={styles.icon} />
-            <span>+33 1 23 45 67 89</span>
+            <span>+33 7 53 38 16 54</span>
           </a>
-          <a href="mailto:contact@renovasmart.fr" className={styles.infoItem}>
+          <a href="mailto:renovaxpert7@gmail.com" className={styles.infoItem}>
             <Mail size={14} className={styles.icon} />
-            <span>contact@renovasmart.fr</span>
+            <span>renovaxpert7@gmail.com</span>
           </a>
           <div className={styles.infoItem}>
             <MapPin size={14} className={styles.icon} />

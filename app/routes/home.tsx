@@ -9,7 +9,7 @@ import styles from "./home.module.css";
 
 export function meta({}: Route.MetaArgs) {
   return [
-    { title: "RenovaSmart Rénovation - Accueil" },
+    { title: "RenovaXpert Rénovation - Accueil" },
     { name: "description", content: "Rénovation intérieure professionnelle à Paris : peinture, parquet, carrelage, sol vinyle et nettoyage après travaux." },
   ];
 }

@@ -10,7 +10,7 @@ import styles from "./services.module.css";
 
 export function meta({}: Route.MetaArgs) {
   return [
-    { title: "Nos Services - RenovaSmart Rénovation" },
+    { title: "Nos Services - RenovaXpert Rénovation" },
     { name: "description", content: "Découvrez tous nos services : peinture, parquet, carrelage, sol vinyle et nettoyage après travaux." },
   ];
 }

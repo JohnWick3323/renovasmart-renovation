@@ -7,7 +7,7 @@ const testimonials = [
     role: "Propriétaire",
     service: "Peinture & Parquet",
     quote:
-      "RenovaSmart a complètement transformé notre appartement. Travail impeccable, équipe ponctuelle et propreté irréprochable. Je recommande vivement !",
+      "RenovaXpert a complètement transformé notre appartement. Travail impeccable, équipe ponctuelle et propreté irréprochable. Je recommande vivement !",
     avatar: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&auto=format&fit=crop&q=80",
     rating: 5,
   },
@@ -16,7 +16,7 @@ const testimonials = [
     role: "Gérant d'entreprise",
     service: "Carrelage & Sol Vinyle",
     quote:
-      "Nous avons fait appel à RenovaSmart pour la rénovation de nos bureaux. Résultat parfait dans les délais impartis. Professionnels et efficaces.",
+      "Nous avons fait appel à RenovaXpert pour la rénovation de nos bureaux. Résultat parfait dans les délais impartis. Professionnels et efficaces.",
     avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&auto=format&fit=crop&q=80",
     rating: 5,
   },
@@ -25,7 +25,7 @@ const testimonials = [
     role: "Architecte d'intérieur",
     service: "Peinture Décorative",
     quote:
-      "En tant qu'architecte, j'exige la perfection. RenovaSmart répond toujours à mes attentes les plus élevées. Mon prestataire de confiance depuis 3 ans.",
+      "En tant qu'architecte, j'exige la perfection. RenovaXpert répond toujours à mes attentes les plus élevées. Mon prestataire de confiance depuis 3 ans.",
     avatar: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&auto=format&fit=crop&q=80",
     rating: 5,
   },

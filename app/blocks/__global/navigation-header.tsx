@@ -14,7 +14,7 @@ export function NavigationHeader({ className }: { className?: string }) {
             <Wrench size={20} color="#fff" />
           </div>
           <div>
-            <span className={styles.logoText}>RenovaSmart</span>
+            <span className={styles.logoText}>RenovaXpert</span>
             <span className={styles.logoSub}>Rénovation</span>
           </div>
         </Link>
