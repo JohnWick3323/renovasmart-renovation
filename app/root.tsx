@@ -16,6 +16,10 @@ import { ServicesSummaryFooter } from "./blocks/__global/services-summary-footer
 import { ContactLegalFooter } from "./blocks/__global/contact-legal-footer";
 import { SocialMediaCopyright } from "./blocks/__global/social-media-copyright";
 
+export const meta: Route.MetaFunction = () => [
+  { name: "robots", content: "noindex, nofollow" },
+];
+
 export const links: Route.LinksFunction = () => [
   {
     rel: "icon",
