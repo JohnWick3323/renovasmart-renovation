@@ -30,7 +30,11 @@ export function ServicesSummaryFooter({ className }: { className?: string }) {
     <div className={`${styles.section} ${className ?? ""}`}>
       <div className={styles.inner}>
         <div className={styles.brand}>
-          <h3>RenovaXpert Rénovation</h3>
+          <img
+            src="/RenovaXpert-Logo-White-Final.png"
+            alt="RenovaXpert Rénovation"
+            className={styles.brandLogo}
+          />
           <p>
             Spécialistes de la rénovation intérieure à Paris et en Île-de-France. Travail propre, rapide et professionnel
             pour transformer vos espaces.

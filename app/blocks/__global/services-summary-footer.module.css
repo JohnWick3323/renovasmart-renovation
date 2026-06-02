@@ -13,11 +13,12 @@
   gap: var(--space-10);
 }
 
-.brand h3 {
-  font-family: var(--family-display);
-  font-size: var(--text-xl);
-  color: #fff;
+.brandLogo {
+  height: 48px;
+  width: auto;
+  object-fit: contain;
   margin-bottom: var(--space-4);
+  display: block;
 }
 
 .brand p {
