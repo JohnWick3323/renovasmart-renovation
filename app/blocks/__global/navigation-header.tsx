@@ -1,7 +1,6 @@
 import { useState } from "react";
 import { NavLink, Link } from "react-router";
-import { Menu, X } from "lucide-react";
-import logo from "/renovaxpert-logo.png";
+import { Menu, X, Wrench } from "lucide-react";
 import styles from "./navigation-header.module.css";
 
 export function NavigationHeader({ className }: { className?: string }) {
@@ -11,7 +10,13 @@ export function NavigationHeader({ className }: { className?: string }) {
     <nav className={`${styles.header} ${className ?? ""}`}>
       <div className={styles.inner}>
         <Link to="/" className={styles.logo}>
-          <img src={logo} alt="RenovaXpert" className={styles.logoImg} />
+          <div className={styles.logoIcon}>
+            <Wrench size={20} color="#fff" />
+          </div>
+          <div>
+            <span className={styles.logoText}>RenovaXpert</span>
+            <span className={styles.logoSub}>Rénovation</span>
+          </div>
         </Link>
 
         <div className={`${styles.nav} ${menuOpen ? styles.navOpen : ""}`}>
