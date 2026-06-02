@@ -8,7 +8,6 @@ import "./styles/reset.css";
 import "./styles/global.css";
 import "./styles/theme.css";
 import { useColorScheme } from "@dazl/color-scheme/react";
-import favicon from "/favicon.svg";
 
 import { NavigationHeader } from "./blocks/__global/navigation-header";
 import { ContactQuickInfo } from "./blocks/__global/contact-quick-info";
@@ -23,8 +22,8 @@ export const meta: Route.MetaFunction = () => [
 export const links: Route.LinksFunction = () => [
   {
     rel: "icon",
-    href: favicon,
-    type: "image/svg+xml",
+    href: "/RenovaXpert-Favicon.png",
+    type: "image/png",
   },
   { rel: "preconnect", href: "https://fonts.googleapis.com" },
   {
